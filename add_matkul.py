@@ -1,19 +1,4 @@
-
-# Definisi skala nilai standar (bobot)
-SKALA_NILAI = {
-    'A': 4.0,
-    'B+': 3.5,
-    'B': 3.0,
-    'C+': 2.5,
-    'C': 2.0,
-    'D': 1.0,
-    'E': 0.0
-}
-
-# Simulasi variabel global atau penampung data
-daftar_mk = []
-
-def tambah_mk():
+def tambah_mk(daftar_mk, SKALA_NILAI):
     print("\n=== Tambah Mata Kuliah ===")
 
     # 1. Input dan Validasi Nama Mata Kuliah
