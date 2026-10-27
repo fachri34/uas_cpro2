@@ -1,4 +1,6 @@
-Skala_Nilai = {
+from add_matkul import tambah_mk
+
+SKALA_NILAI = {
     "A": 4.0, 
     "B+": 3.5, 
     "B": 3.0, 
@@ -26,7 +28,7 @@ def main():
         tampilkan_menu()
         pilihan = input("Pilih menu (0-5): ").strip()
         if pilihan == '1':
-            tambah_mk()
+            tambah_mk(daftar_mk, SKALA_NILAI)
         elif pilihan == '2':
             print("\n[Fitur 2: Lihat Daftar - Akan dikerjakan Jason]")
         elif pilihan == '3':
