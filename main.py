@@ -1,4 +1,7 @@
-Skala_Nilai = {
+from add_matkul import tambah_mk
+from target_simulasi  import simulasi_target
+
+SKALA_NILAI = {
     "A": 4.0, 
     "B+": 3.5, 
     "B": 3.0, 
@@ -26,13 +29,13 @@ def main():
         tampilkan_menu()
         pilihan = input("Pilih menu (0-5): ").strip()
         if pilihan == '1':
-            tambah_mk()
+            tambah_mk(daftar_mk, SKALA_NILAI)
         elif pilihan == '2':
             print("\n[Fitur 2: Lihat Daftar - Akan dikerjakan Jason]")
         elif pilihan == '3':
             print("\n[Fitur 3: Hitung IPK - Akan dikerjakan Jason]")
         elif pilihan == '4':
-            print("\n[Fitur 4: Simulasi Target - Akan dikerjakan lu/Iman]")
+            simulasi_target(daftar_mk)
         elif pilihan == '5':
             print("\n[Fitur 5: Hapus Matkul - Akan dikerjakan Fachri]")
         elif pilihan == '0':
