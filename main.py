@@ -1,5 +1,6 @@
 from add_matkul import tambah_mk
 from target_simulasi  import simulasi_target
+from hitung_ipk import tampilkan_ipk
 
 SKALA_NILAI = {
     "A": 4.0, 
@@ -33,7 +34,7 @@ def main():
         elif pilihan == '2':
             print("\n[Fitur 2: Lihat Daftar - Akan dikerjakan Jason]")
         elif pilihan == '3':
-            print("\n[Fitur 3: Hitung IPK - Akan dikerjakan Jason]")
+            tampilkan_ipk(daftar_mk)
         elif pilihan == '4':
             simulasi_target(daftar_mk)
         elif pilihan == '5':
