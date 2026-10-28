@@ -3,6 +3,7 @@ from feature.target_simulasi  import simulasi_target
 from feature.hitung_ipk import tampilkan_ipk
 from feature.daftar_matkul import lihat_daftar
 from feature.hapus_mk import hapus_mk
+
 SKALA_NILAI = {
     "A": 4.0, 
     "B+": 3.5, 
