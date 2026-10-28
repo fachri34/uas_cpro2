@@ -1,8 +1,9 @@
-from add_matkul import tambah_mk
-from target_simulasi  import simulasi_target
-from hitung_ipk import tampilkan_ipk
-from Daftar_Matkul import lihat_daftar
-from Hapus_Matkul import hapus_mk
+from feature.add_matkul import tambah_mk
+from feature.target_simulasi  import simulasi_target
+from feature.hitung_ipk import tampilkan_ipk
+from feature.daftar_matkul import lihat_daftar
+from feature.hapus_mk import hapus_mk
+
 SKALA_NILAI = {
     "A": 4.0, 
     "B+": 3.5, 
@@ -16,7 +17,7 @@ daftar_mk = []
 
 def tampilkan_menu():
     print("\n=============================================")
-    print("   TARGETIPK - KALKULATOR & SIMULASI IPK")
+    print("   TARGET IPK - KALKULATOR & SIMULASI IPK")
     print("=============================================")
     print("1. Tambah Mata Kuliah")
     print("2. Lihat Daftar Mata Kuliah")
