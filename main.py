@@ -1,7 +1,8 @@
 from add_matkul import tambah_mk
 from target_simulasi  import simulasi_target
 from hitung_ipk import tampilkan_ipk
-
+from Daftar_Matkul import lihat_daftar
+from Hapus_Matkul import hapus_mk
 SKALA_NILAI = {
     "A": 4.0, 
     "B+": 3.5, 
@@ -32,13 +33,13 @@ def main():
         if pilihan == '1':
             tambah_mk(daftar_mk, SKALA_NILAI)
         elif pilihan == '2':
-            print("\n[Fitur 2: Lihat Daftar - Akan dikerjakan Jason]")
+            lihat_daftar(daftar_mk)
         elif pilihan == '3':
             tampilkan_ipk(daftar_mk)
         elif pilihan == '4':
             simulasi_target(daftar_mk)
         elif pilihan == '5':
-            print("\n[Fitur 5: Hapus Matkul - Akan dikerjakan Fachri]")
+            hapus_mk(daftar_mk)
         elif pilihan == '0':
             print("\nTerima kasih telah menggunakan TargetIPK! Program selesai.")
             break          
