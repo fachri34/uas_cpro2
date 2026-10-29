@@ -59,14 +59,14 @@ TargetIPK/
 │   ├── hitung_ipk.py
 │   ├── target_simulasi.py
 │   └── hapus_mk.py
-├── unit_test/                 # Folder modul fitur-fitur utama
+├── unit_test/                 # Folder modul uni test fitur utama
 │   ├── test_add_matkul.py
 |   ├── test_hapus_mk.py
 │   ├── test_lihat_daftar.py
 │   ├── test_simulasi_target.py
 │   ├── test_tampilkan_ipk.py
-│   └── hapus_mk.py
 └── README.md
+└── .gitignore
 ```
 
 ---
