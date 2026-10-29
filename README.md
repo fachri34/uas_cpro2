@@ -59,7 +59,7 @@ TargetIPK/
 │   ├── hitung_ipk.py
 │   ├── target_simulasi.py
 │   └── hapus_mk.py
-├── unit_test/                 # Folder modul uni test fitur utama
+├── unit_test/                 # Folder modul unit test fitur utama
 │   ├── test_add_matkul.py
 |   ├── test_hapus_mk.py
 │   ├── test_lihat_daftar.py
